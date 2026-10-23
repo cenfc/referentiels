@@ -1,0 +1,25 @@
+Package: referentiels
+Title: Outils privés d'accès aux référentiels des CEN de B & FC
+Version: 0.1.0
+Authors@R: 
+    person("Jean-Baptiste", "Fagot", , "jean.baptiste.fagot@cen-franchecomte.org", role = c("aut", "cre"))
+Maintainer: Jean-Baptiste Fagot <jean.baptiste.fagot@cen-franchecomte.org>
+Description: Outils privés d'accès aux référentiels des Conservatoires
+    d'Espaces Naturels de Bourgogne Franche-Comté
+License: GNU GPL v3
+URL: https://github.com/cenfc/referentiels
+BugReports: https://github.com/cenfc/referentiels/issues
+Depends:
+    R (>= 4.1.0)
+Imports:
+    cenbfc,
+    dplyr,
+    keyring,
+    sf,
+    units
+Remotes: 
+    colinfay/rgeoapi
+Config/roxygen2/version: 8.1.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
