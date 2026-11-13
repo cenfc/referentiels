@@ -4,6 +4,7 @@
 #' @name departements
 #' @param utilisateur Nom d'utilisateur de la base de données
 #' @import cenbfc
+#' @import DBI
 #' @import dplyr
 #' @import keyring
 #' @import sf
@@ -19,6 +20,7 @@ departements <- function(
   #### Collecte des données ####
   bd_r <- bdd.connexion("referentiels", "193.108.54.245", 5432, utilisateur, keyring::key_get("referentiels", utilisateur))
   communes <- st_read(bd_r, query = "select * from wfs.vm_communes_bfc;") # Tjs prendre cette vue matérialisée de référence
+  dbDisconnect(bd_r)
   
   #### Calcul ####
   departements <- 

@@ -2,7 +2,12 @@
 
 export(departements)
 export(region_bfc)
+export(territoire)
+import(DBI)
+import(RPostgreSQL)
 import(cenbfc)
 import(dplyr)
+import(ecotools)
 import(keyring)
 import(sf)
+import(tidyverse)

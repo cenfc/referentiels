@@ -13,10 +13,16 @@ Depends:
     R (>= 4.1.0)
 Imports:
     cenbfc,
+    DBI,
     dplyr,
+    ecotools,
     keyring,
+    RPostgreSQL,
     sf,
+    tidyverse,
     units
+Suggests: 
+    testthat
 Remotes: 
     colinfay/rgeoapi
 Config/roxygen2/version: 8.1.0
