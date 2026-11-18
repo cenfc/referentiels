@@ -12,7 +12,6 @@ BugReports: https://github.com/cenfc/referentiels/issues
 Depends:
     R (>= 4.1.0)
 Imports:
-    cenbfc,
     DBI,
     dplyr,
     ecotools,
@@ -24,6 +23,7 @@ Imports:
 Suggests: 
     testthat
 Remotes: 
+    cenfc/cenbfc
     colinfay/rgeoapi
 Config/roxygen2/version: 8.1.0
 Encoding: UTF-8

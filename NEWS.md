@@ -1,5 +1,10 @@
 # NEWS - referentiels
 
+## 0.1.1 - 2026-11-18
+### Correction
+- modification de l'adressage de la dépendance à cenfc/cenbfc
+- `territoire` : ajout d'une dépendance manquante
+
 ## 0.1.0 - 2026-11-13
 ### Ajouts
 - `territoire` : création

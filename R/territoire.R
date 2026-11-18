@@ -6,6 +6,7 @@
 #' @param territoire territoire concerné. Unique ou sous la forme d'un vecteur (c("Villerserine", "Villers-Robert") par exemple)
 #' @import DBI
 #' @import ecotools
+#' @import glue
 #' @import RPostgreSQL
 #' @import sf
 #' @import tidyverse
