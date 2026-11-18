@@ -23,7 +23,7 @@ Imports:
 Suggests: 
     testthat
 Remotes: 
-    cenfc/cenbfc
+    cenfc/cenbfc,
     colinfay/rgeoapi
 Config/roxygen2/version: 8.1.0
 Encoding: UTF-8
