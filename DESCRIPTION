@@ -1,6 +1,6 @@
 Package: referentiels
 Title: Outils privés d'accès aux référentiels des CEN de B & FC
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person("Jean-Baptiste", "Fagot", , "jean.baptiste.fagot@cen-franchecomte.org", role = c("aut", "cre"))
 Maintainer: Jean-Baptiste Fagot <jean.baptiste.fagot@cen-franchecomte.org>
@@ -14,7 +14,6 @@ Depends:
 Imports:
     DBI,
     dplyr,
-    ecotools,
     keyring,
     RPostgreSQL,
     sf,
@@ -24,6 +23,7 @@ Suggests:
     testthat
 Remotes: 
     cenfc/cenbfc,
+    cenfc/ecotools,
     colinfay/rgeoapi
 Config/roxygen2/version: 8.1.0
 Encoding: UTF-8
